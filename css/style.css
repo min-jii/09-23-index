@@ -1,0 +1,153 @@
+html, body {
+background: linear-gradient(#2163a5 0%, #7db9e8 70%);
+min-height:100%;
+}
+img {
+	display: block;
+	position: absolute;
+}
+@-webkit-keyframes minji {
+	0% {
+		margin-top: 0;
+		transform: rotate(0deg);
+		opacity: 0.5;
+	}
+
+	50% {
+		opacity: 1;
+	}
+		
+	100% {
+		margin-top: 690px;
+		transform: rotate(200deg);
+		opacity: 0.3;
+	}
+}
+@-webkit-keyframes minjii {
+	0% {
+		margin-top: 0;
+		transform: rotate(0deg);
+		opacity: 0.8;
+	}
+
+	50% {
+		opacity: 1;
+	}
+		
+	100% {
+		margin-top: 690px;
+		transform: rotate(-200deg);
+		opacity: 0.3;
+	}
+}
+.span {
+	 content: "\2744";
+	 position: absolute;
+	 width: 100px;
+	 height: 100px;
+	 display: inline-block;
+}
+.left {
+	 animation-name: minji;
+	 animation-duration: 4s;
+	 animation-timing-function: linear;
+	 animation-iteration-count: infinite;
+	 animation-timing-function: ease-in;
+}
+.right {
+	 animation-name: minjii;
+	 animation-duration: 3s;
+	 animation-timing-function: linear;
+	 animation-iteration-count: infinite;
+	 animation-timing-function: ease-out;
+}
+.medium-snowflake {
+	 font-size: 40px;
+	 font-weight: 500;
+	 color: white;
+}
+.small-snowflake {
+	 font-size: 30px;
+	  font-weight: 500;
+	color: white;
+}
+.triangle-1 {
+	 width: 0;
+	 height: 0;
+	 position: absolute;
+	 border-left: 100px solid transparent;
+	 border-right: 100px solid transparent;
+	 border-bottom: 120px solid #13523b;
+
+
+	 transition-property: background-color;
+	 transition-duration: 1s;
+}
+.triangle-1:hover {
+	 width: 0;
+	 height: 0;
+	 position: absolute;
+	 border-left: 100px solid transparent;
+	 border-right: 100px solid transparent;
+	 border-bottom: 120px solid #29a529;
+}
+.triangle-2 {
+  	 width: 0;
+	 height: 0;
+	 position: absolute;
+	 border-left: 120px solid transparent;
+	 border-right: 120px solid transparent;
+	 border-bottom: 120px solid #13523b;
+
+	 transition-property: background-color;
+	 transition-duration: 1s;
+}
+.triangle-2:hover {
+	 width: 0;
+	 height: 0;
+	 position: absolute;
+	 border-left: 120px solid transparent;
+	 border-right: 120px solid transparent;
+	 border-bottom: 120px solid #29a529;
+}
+.triangle-3 {
+	 width: 0;
+	 height: 0;
+	 position: absolute;
+	 border-left: 130px solid transparent;
+	 border-right: 130px solid transparent;
+	 border-bottom: 140px solid #13523b;
+
+	 transition-property: background-color;
+	 transition-duration: 1s;
+}
+.triangle-3:hover {
+	 width: 0;
+	 height: 0;
+	 position: absolute;
+	 border-left: 130px solid transparent;
+	 border-right: 130px solid transparent;
+	 border-bottom: 140px solid #29a529;
+}
+.box {
+	 width: 70px;
+	 height: 90px;
+	 position: absolute;
+	 background-color: #745843;
+}
+.center {
+	 width: 180px;
+	 height: 180px;
+	 display: flex;
+	 position: absolute;
+	 flex-direction: column;
+	 align-items: center;
+	 justify-content: center;
+}
+.circle {
+	 width: 25px;
+	 height: 25px;
+	 position: absolute;
+	 background-color: #c12727;
+	 border-radius: 50%;
+}
